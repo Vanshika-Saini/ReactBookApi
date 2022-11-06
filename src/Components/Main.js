@@ -7,6 +7,7 @@ import Card from "./Books";
 const Main=()=>{
     const [bookData,setData]=useState([]);
     const [search,setSearch]=useState("");
+    //code for api
     const searchBook=(evt)=>{
         if(evt.key==="Enter")
         {
@@ -15,6 +16,8 @@ const Main=()=>{
             .catch(err=>console.log(err))
         }
     }
+
+    //basic html code for taking the input of the book name that the user wants to search
    
     return(
         <>

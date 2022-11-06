@@ -9,6 +9,7 @@ const Books = ({ book }) => {
     const [show,setShow]=useState(false);
     const [bookItem,setItem]=useState();
     console.log(book)
+    //code for book showing, when clicked it will show the information and take you to google book api information page
 
     return (
         <>

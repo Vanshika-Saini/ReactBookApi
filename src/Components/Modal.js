@@ -1,6 +1,8 @@
 import react from 'react';
 
 const Modal=({show,item,onClose})=>{
+
+    //code for book showing
     if(!show)
     {
         return null;
